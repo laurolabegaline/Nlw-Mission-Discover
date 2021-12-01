@@ -18,7 +18,7 @@ html {
    --grey-blue: #a1b2cd;
    --grey-light: #e5eaf1;
    /* 1 rem = 16px (User agent)*/
-   font-size: 62.5%; /**/
+   font-size: 62.5%; 
 }
 body {
    height: 100vh;

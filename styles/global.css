@@ -1,96 +1,97 @@
 * {
-   margin: 0;
-   padding: 0;
-   border: none;
-   text-decoration: none;
-   box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	box-sizing: border-box;
 }
 html {
-   --black: #0d114f;
-   --white: #ffffff;
-   --red: #e83f5b;
-   --light-blue: #e0ecff;
-   --blue: #3485ff;
-   --background: #f6faff;
-   --overlay: #040911;
-   --icons-details: #a5b0c1;
-   --grey-dark: #4d5e77;
-   --grey-blue: #a1b2cd;
-   --grey-light: #e5eaf1;
-   /* 1 rem = 16px (User agent)*/
-   font-size: 62.5%; 
+	--black: #0d114f;
+	--white: #ffffff;
+	--red: #e83f5b;
+	--light-blue: #e0ecff;
+	--blue: #3485ff;
+	--background: #f6faff;
+	--overlay: #040911;
+	--icons-details: #a5b0c1;
+	--grey-dark: #4d5e77;
+	--grey-blue: #a1b2cd;
+	--grey-light: #e5eaf1;
+	/* 1 rem = 16px (User agent)*/
+	font-size: 62.5%;
 }
 body {
-   height: 100vh;
-   background: var(--background);
+	display: flex;
+	height: 100vh;
+	background: var(--background);
 }
 body,
 button,
 input,
 textarea {
-   /* Intervalo de tamanho, minimo, padrao e máximo*/
-   font-size: clamp(14px, 1.6rem, 2vw);
-   font-family: "Open Sans", sans-serif;
+	/* Intervalo de tamanho, minimo, padrao e máximo*/
+	font-size: clamp(14px, 1.6rem, 2vw);
+	font-family: "Open Sans", sans-serif;
 }
 .content {
-   width: 100%;
-   margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
 }
 .sr-only {
-   position: absolute;
-   height: 1px;
-   width: 1px;
-   padding: 0px;
-   margin: -1px;
-   overflow: hidden;
-   clip-path: rect(0, 0, 0, 0);
-   white-space: 0;
+	position: absolute;
+	height: 1px;
+	width: 1px;
+	padding: 0px;
+	margin: -1px;
+	overflow: hidden;
+	clip-path: rect(0, 0, 0, 0);
+	white-space: 0;
 }
 /* -------------- Input Buttons ----------*/
 input,
 button,
 .button {
-   border-radius: 0.8rem;
-   height: 5rem;
+	border-radius: 0.8rem;
+	height: 5rem;
 }
 button,
 .button {
-   font-family: "Poppins";
-   font-weight: 500;
-   line-height: 0;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background: var(--blue);
-   color: var(--white);
-   cursor: pointer;
-   transition: filter 0.2s;
+	font-family: "Poppins";
+	font-weight: 500;
+	line-height: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--blue);
+	color: var(--white);
+	cursor: pointer;
+	transition: filter 0.2s;
 }
 button:hover,
 .button:hover {
-   filter: brightness(1.2);
+	filter: brightness(1.2);
 }
 button > img .button > img {
-   margin-right: 1rem;
-   width: 2rem;
+	margin-right: 1rem;
+	width: 2rem;
 }
 button.outlined,
 .button.outlined {
-   background: var(--white);
-   color: var(--blue);
-   border: 0.2rem solid var(--blue);
+	background: var(--white);
+	color: var(--blue);
+	border: 0.2rem solid var(--blue);
 }
 input,
 button,
 .button {
-   width: 100%;
-   margin-bottom: 1.8rem;
+	width: 100%;
+	margin-bottom: 1.8rem;
 }
 
 .content header {
-   width: 80%;
-   margin: 3.5 rem auto;
+	width: 80%;
+	margin: 3.5rem auto;
 }
 .content header img {
-   width: 16.7rem;
+	width: 16.7rem;
 }
